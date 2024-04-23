@@ -14,7 +14,7 @@ from utils import yaml_config_hook, knns2ordered_nbrs
 from utils.clustering import Clustering
 
 os.environ['OMP_NUM_THREADS'] = '4'
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
 
 class Eval():
